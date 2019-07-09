@@ -7,6 +7,7 @@ export default class SearchPanel extends Component {
   state = {
     term: ''
   };
+  
 
   onTermChange = (e) => {
     const {onSearchChange = () => {}} = this.props;

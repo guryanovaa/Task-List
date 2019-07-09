@@ -67,6 +67,7 @@ export default class App extends Component {
       ...arr.slice( idx+1 )
     ]; 
   }
+  
 
   onToggleImportante = (id) => {
    this.setState(({todoData}) => {
