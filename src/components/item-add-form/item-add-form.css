@@ -4,3 +4,6 @@
 .iaf-but {
     background-color: rgb(217, 235, 236);
 }
+.item-add-form input {
+    margin-right: 3px;
+}
